@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Gobetti</title>
+    <link rel="stylesheet" href="style.css"> <!-- Caminho do arquivo CSS -->
+</head>
+<body>
+    <header>
+        <h1>Gabriel Gobetti</h1>
+        <p>Desenvolvedor em aprendizado</p>
+        <button id="theme-button">Mudar Tema</button> <!-- Botão para mudar tema -->
+    </header>
+
+    <section>
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQHv2jne0GO9Tg/profile-displayphoto-shrink_800_800/B56ZWlJq_5GUAg-/0/1742232531732?e=1747872000&v=beta&t=7FcNmlP2HeVpCP2vL9l2fV3Z0cQhuUyJHRDo1J-R0Ug" alt="Minha Foto" width="200">
+        <p>Olá! Estou aprendendo programação e colocando meus conhecimentos em prática ao desenvolver meu site pessoal.</p>
+    </section>
+
+    <footer>
+        <p>Me siga nas redes sociais:</p>
+        <a href="https://github.com/GabrielGobetti" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/gabriel-gobetti-martins-691069313/" target="_blank">LinkedIn</a>
+    </footer>
+
+    <script>
+
+function toggleTheme() {
+    document.body.classList.toggle('dark-theme');
+}
+
+// Adiciona o evento ao botão
+document.getElementById('theme-button').addEventListener('click', toggleTheme);
+
+    </script> <!-- Corrigido o fechamento da tag script -->
+     
+     <section id="skills">
+        <h2>Minhas Habilidades</h2>
+        <ul>
+            <li><strong>com muita facilidade.</strong> </li><br>
+            <li><strong>Gosto de estar em constante evolução.</strong></li><br>
+            <li><strong>Altamente comunicativo.</strong></li><br>
+            <li><strong>Espírito de liderança.</strong></li>
+        </ul>
+    </section>
+</body>
+</html>
+

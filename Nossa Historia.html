@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>❤️Nossa História❤️</title>
+  <style>
+    /* Tela de carregamento */
+    #loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #36002d;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* Permite o empilhamento vertical dos itens */
+      z-index: 9999;
+    }
+
+    /* Coração */
+    .heart {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      background-color: red;
+      transform: rotate(-45deg);
+      animation: beat 1s infinite;
+    }
+
+    .heart::before,
+    .heart::after {
+      content: "";
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: red;
+      position: absolute;
+    }
+
+    .heart::before {
+      top: -50px;
+      left: 0;
+    }
+
+    .heart::after {
+      top: 0;
+      left: 50px;
+    }
+
+    /* Animação para o coração pulsar */
+    @keyframes beat {
+
+      0%,
+      100% {
+        transform: scale(1) rotate(-45deg);
+      }
+
+      50% {
+        transform: scale(1.2) rotate(-45deg);
+      }
+    }
+
+    /* Texto de carregamento */
+    .loading-text {
+      margin-left: 20px;
+      margin-top: 50px;
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    /* Conteúdo principal */
+    #main-content {
+      display: none;
+      /* Oculta o conteúdo inicialmente */
+      text-align: center;
+      padding: 20px;
+    }
+
+    #Navbarpri{
+      background-color: #36002d;
+    
+    }
+
+    #tp{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 0, 0);
+    margin-top: 80px;
+}
+    
+   
+    
+    .container-flux {
+      height: 100vh; /* Altura da tela inteira */
+      background-image: url(Imagem/Eu\ e\ sara\ eu\ .jpeg); /* Substitua pelo caminho da imagem */
+      background-size: cover; /* Faz a imagem cobrir o elemento */
+      background-repeat: no-repeat; /* Não repete a imagem */
+      background-position: center; /* Centraliza a imagem */
+   
+    }
+    .container{
+      background-color: antiquewhite;
+      border-radius: 30px;
+      
+
+    }
+  </style>
+  <script>
+    // Função para simular o carregamento
+    window.onload = function () {
+      setTimeout(() => {
+        document.getElementById('loading-screen').style.display = 'none'; // Esconde a tela de carregamento
+        document.getElementById('main-content').style.display = 'block'; // Mostra o conteúdo principal
+      }, 3000); // Tempo em milissegundos (3 segundos)
+    };
+    
+    
+  </script>
+</head>
+
+<body>
+<div class="container-flux">
+  <!-- Tela de carregamento -->
+  <div id="loading-screen">
+    <div class="heart"></div>
+    <div class="loading-text">𝓒𝓪𝓻𝓻𝓮𝓰𝓪𝓷𝓭𝓸...</div> <!-- Texto adicionado -->
+  </div>
+
+  <nav class="navbar navbar-dark  " id="Navbarpri">
+    <nav class="navbar navbar-expand-lg navbar-Dark bg-Dark">
+      <img src="Imagem/imagem_2025-03-30_214522519-removebg-preview.png" width="50">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="carregamento.html">Inicio <span class="sr-only">(Página atual)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Nossa Historia.html">Nossa História</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contador de Tempo.html">Contador de Tempo</a>
+          </li>
+          <li class="nav-item dropdown">
+
+            <img src="Imagem/imagem_2025-03-30_214522519-removebg-preview.png" width="50">
+           
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </nav>
+  <div class="container">
+  <h1 id="tp">❤️Nossa História❤️</h1>
+  <br>
+  <h2>
+    Tudo começou na Escola Senac, onde tive a sorte de conhecer a pessoa mais especial desse mundão: você, minha namorada, Sara. Desde os primeiros momentos, algo mágico aconteceu entre nós. Em pouco tempo, recebemos o cargo de líderes da turma, e eu diria que foi ali que nossa história começou de verdade.
+    <br>
+    
+
+Depois de tantas conversas e risadas, veio o nosso primeiro encontro: uma ida ao cinema. Ali, no escurinho da sala, compartilhamos momentos que já mostravam como nossa conexão era especial. Com cada sorriso e cada conversa, percebi que estava diante de alguém que transformaria minha vida para sempre.
+<br>
+
+E então, no dia 10/08/2024, eu tomei coragem e pedi sua mão em namoro. Foi, sem dúvida, a melhor decisão que pude tomar.
+<br>
+
+Eu jamais imaginava que, além de um diploma de ensino médio, ganharia também uma companheira para todos os momentos da minha jornada, a baixinha mais incrível que se tornou minha parceira pra tudo.<br>
+
+Amor, te amo mais do que palavras podem expressar. Sou imensamente grato pela sua vida e pelo nosso relacionamento. Você é minha maior sorte, meu maior presente, meu tudo.
+<br>
+
+  </h2>
+    </div>
+
+  <!-- JavaScript (Opcional) -->
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  
+  </div>
+</body>
+
+</html>
